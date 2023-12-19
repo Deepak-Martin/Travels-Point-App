@@ -22,19 +22,19 @@ const Footer = () => {
               <h5>Follow Us On:</h5>
               <ul className="footer-social-links justify-content-lg-start justify-content-center">
                 <li>
-                  <a href="#"><i className="bx bxl-instagram" /></a>
+                  <a href="/#"><i className="bx bxl-instagram" /></a>
                 </li>
                 <li>
-                  <a href="#"><i className="bx bxl-facebook" /></a>
+                  <a href="/#"><i className="bx bxl-facebook" /></a>
                 </li>
                 <li>
-                  <a href="#"><i className="bx bxl-twitter" /></a>
+                  <a href="/#"><i className="bx bxl-twitter" /></a>
                 </li>
                 <li>
-                  <a href="#"><i className="bx bxl-whatsapp" /></a>
+                  <a href="/#"><i className="bx bxl-whatsapp" /></a>
                 </li>
                 <li>
-                  <a href="#"><i className="bx bxl-pinterest-alt" /></a>
+                  <a href="/#"><i className="bx bxl-pinterest-alt" /></a>
                 </li>
               </ul>
             </div>
@@ -57,11 +57,11 @@ const Footer = () => {
           <div className="footer-widget">
             <h4 className="footer-widget-title">Tour Type</h4>
             <ul className="footer-links">
-              <li><a href="#">Wild &amp; Adventure Tours</a></li>
-              <li><a href="#">Group Tour</a></li>
-              <li><a href="#">Seasonal Tours</a></li>
-              <li><a href="#">Relaxation Tours</a></li>
-              <li><a href="#">Family Friendly Tours</a></li>
+              <li><a href="/#">Wild &amp; Adventure Tours</a></li>
+              <li><a href="/#">Group Tour</a></li>
+              <li><a href="/#">Seasonal Tours</a></li>
+              <li><a href="/#">Relaxation Tours</a></li>
+              <li><a href="/#">Family Friendly Tours</a></li>
             </ul>
           </div>
         </div>
@@ -104,7 +104,7 @@ const Footer = () => {
           </li>
           <li>
             <i className="bi bi-geo-alt" />
-            <a href="#">2752 Willison Street Eagan, United State</a>
+            <a href="/#">2752 Willison Street Eagan, United State</a>
           </li>
         </ul>
       </div>
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="col-lg-4 col-md-6 order-lg-1 order-3">
           <div className="copyright-link text-lg-start text-center">
             <p>
-              Copyright 2021 TourXPro | Design By <a href="#"> Egens Lab</a>
+              Copyright 2021 TourXPro | Design By <a href="/#"> Egens Lab</a>
             </p>
           </div>
         </div>
@@ -128,8 +128,8 @@ const Footer = () => {
         <div className="col-lg-4 col-md-6 order-lg-3 order-2">
           <div className="policy-links">
             <ul className="policy-list justify-content-lg-end justify-content-center">
-              <li><a href="#">Terms &amp; Condition</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="/#">Terms &amp; Condition</a></li>
+              <li><a href="/#">Privacy Policy</a></li>
             </ul>
           </div>
         </div>

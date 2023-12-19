@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
@@ -127,22 +128,22 @@ const HeaderComponent = () => {
             <div className="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
               <ul className="topbar-social-links">
                 <li>
-                  <a href="#">
+                  <a href="/#">
                     <i className="bx bxl-facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/#">
                     <i className="bx bxl-instagram-alt" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/#">
                     <i className="bx bxl-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/#">
                     <i className="bx bxl-pinterest" />
                   </a>
                 </li>
@@ -168,16 +169,16 @@ const HeaderComponent = () => {
                           <i className="bx bx-user-circle" />
                           <ul className="user-drop-list">
                             <li>
-                              <a href="#">My Account</a>
+                              <a href="/#">My Account</a>
                             </li>
                             <li>
-                              <a href="#">Login</a>
+                              <a href="/#">Login</a>
                             </li>
                             <li>
-                              <a href="#">Registration</a>
+                              <a href="/#">Registration</a>
                             </li>
                             <li>
-                              <a href="#">Setting</a>
+                              <a href="/#">Setting</a>
                             </li>
                           </ul>
                         </div>
@@ -186,7 +187,7 @@ const HeaderComponent = () => {
                         </div>
                       </div>
                       <a
-                        href="javascript:void(0)"
+                        href="/#"
                         className="hamburger d-block d-xl-none"
                       >
                         <span className="h-top" />
@@ -200,34 +201,21 @@ const HeaderComponent = () => {
               <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-8 col-sm-6 col-xs-6">
                 <nav className="main-nav">
                   <div className="inner-logo d-xl-none text-center">
-                    <a href="#">
+                    <a href="/#">
                       <img src="assets/images/logo.png" alt="" />
                     </a>
                   </div>
                   <ul>
-                    <li className="has-child-menu">
-                      <a href="javascript:void(0)">Home</a>
-                      <i className="fl flaticon-plus">+</i>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="index.html">Home Style 1</a>
-                        </li>
-                        <li>
-                          <a href="index2.html">Home Style 2</a>
-                        </li>
-                        <li>
-                          <a href="index3.html">Home Style 3</a>
-                        </li>
-                        <li>
-                          <a href="index4.html">Home Style 4</a>
-                        </li>
-                      </ul>
-                    </li>
                     <li>
-                      <a href="about.html">About Us</a>
+                      <Link to='/'>Home</Link>
                     </li>
+
+                    <li>
+                      <Link to='/about-us'>About Us</Link>
+                    </li>
+
                     <li className="has-child-menu">
-                      <a href="javascript:void(0)">Destination</a>
+                      <a href="/#">Destination</a>
                       <i className="fl flaticon-plus">+</i>
                       <ul className="sub-menu">
                         <li>
@@ -240,8 +228,9 @@ const HeaderComponent = () => {
                         </li>
                       </ul>
                     </li>
+
                     <li className="has-child-menu">
-                      <a href="javascript:void(0)">Package</a>
+                      <a href="/#">Package</a>
                       <i className="fl flaticon-plus">+</i>
                       <ul className="sub-menu">
                         <li>
@@ -258,8 +247,9 @@ const HeaderComponent = () => {
                         </li>
                       </ul>
                     </li>
+
                     <li className="has-child-menu">
-                      <a href="javascript:void(0)">Blogs</a>
+                      <a href="/#">Blogs</a>
                       <i className="fl flaticon-plus">+</i>
                       <ul className="sub-menu">
                         <li>
@@ -276,8 +266,9 @@ const HeaderComponent = () => {
                         </li>
                       </ul>
                     </li>
+                    
                     <li className="has-child-menu">
-                      <a href="javascript:void(0)">Pages</a>
+                      <a href="/#">Pages</a>
                       <i className="fl flaticon-plus">+</i>
                       <ul className="sub-menu">
                         <li>
@@ -294,6 +285,7 @@ const HeaderComponent = () => {
                         </li>
                       </ul>
                     </li>
+
                     <li>
                       <a href="contact.html">Contact Us</a>
                     </li>

@@ -1,4 +1,6 @@
 
+import React from "react";
+
 const About = () => {
   return (
     
@@ -269,12 +271,12 @@ const About = () => {
             <div className="guide-image">
               <img src="assets/images/guide/guide-md4.png" alt="" />
               <ul className="guide-social-links">
-                <li><a href="#"><i className="bx bxl-instagram" /></a></li>
-                <li><a href="#"><i className="bx bxl-facebook" /></a></li>
-                <li><a href="#"><i className="bx bxl-twitter" /></a></li>
+                <li><a href="/#"><i className="bx bxl-instagram" /></a></li>
+                <li><a href="/#"><i className="bx bxl-facebook" /></a></li>
+                <li><a href="/#"><i className="bx bxl-twitter" /></a></li>
               </ul>
               <div className="contact-lavel">
-                <a href="#">Contact</a>
+                <a href="/#">Contact</a>
               </div>
             </div>
             <div className="guide-content">
@@ -289,12 +291,12 @@ const About = () => {
             <div className="guide-image">
               <img src="assets/images/guide/guide-md5.png" alt="" />
               <ul className="guide-social-links">
-                <li><a href="#"><i className="bx bxl-instagram" /></a></li>
-                <li><a href="#"><i className="bx bxl-facebook" /></a></li>
-                <li><a href="#"><i className="bx bxl-twitter" /></a></li>
+                <li><a href="/#"><i className="bx bxl-instagram" /></a></li>
+                <li><a href="/#"><i className="bx bxl-facebook" /></a></li>
+                <li><a href="/#"><i className="bx bxl-twitter" /></a></li>
               </ul>
               <div className="contact-lavel">
-                <a href="#">Contact</a>
+                <a href="/#">Contact</a>
               </div>
             </div>
             <div className="guide-content">
@@ -309,12 +311,12 @@ const About = () => {
             <div className="guide-image">
               <img src="assets/images/guide/guide-md6.png" alt="" />
               <ul className="guide-social-links">
-                <li><a href="#"><i className="bx bxl-instagram" /></a></li>
-                <li><a href="#"><i className="bx bxl-facebook" /></a></li>
-                <li><a href="#"><i className="bx bxl-twitter" /></a></li>
+                <li><a href="/#"><i className="bx bxl-instagram" /></a></li>
+                <li><a href="/#"><i className="bx bxl-facebook" /></a></li>
+                <li><a href="/#"><i className="bx bxl-twitter" /></a></li>
               </ul>
               <div className="contact-lavel">
-                <a href="#">Contact</a>
+                <a href="/#">Contact</a>
               </div>
             </div>
             <div className="guide-content">
@@ -336,7 +338,7 @@ const About = () => {
           </div>
         </div>
         <div className="col-lg-5">
-          <div className="blog-btn text-lg-end"><a href="#" className="button-fill-round">View All</a></div>
+          <div className="blog-btn text-lg-end"><a href="/#" className="button-fill-round">View All</a></div>
         </div>
       </div>
       <div className="row">
@@ -347,13 +349,13 @@ const About = () => {
                 <img src="assets/images/blog/blog-md-1.png" alt="" />
               </a>
               <div className="blog-lavel">
-                <a href="#">Guide</a>
+                <a href="/#">Guide</a>
               </div>
             </div>
             <div className="blog-content">
               <div className="blog-body-top">
-                <a href="#" className="blog-writer"><i className="bi bi-person-circle" /> By John Smith </a>
-                <a href="#" className="blog-comments"><i className="bi bi-calendar3" /> Novembar 16, 2021</a>
+                <a href="/#" className="blog-writer"><i className="bi bi-person-circle" /> By John Smith </a>
+                <a href="/#" className="blog-comments"><i className="bi bi-calendar3" /> Novembar 16, 2021</a>
               </div>
               <h4 className="blog-title"><a href="blog-details.html">vitae tempor convallis, mi ligula an
                   suscipit nunc, ornare suscipit.</a></h4>
@@ -367,13 +369,13 @@ const About = () => {
                 <img src="assets/images/blog/blog-md-2.png" alt="" />
               </a>
               <div className="blog-lavel">
-                <a href="#">Travel</a>
+                <a href="/#">Travel</a>
               </div>
             </div>
             <div className="blog-content">
               <div className="blog-body-top">
-                <a href="#" className="blog-writer"><i className="bi bi-person-circle" /> By John Smith </a>
-                <a href="#" className="blog-comments"><i className="bi bi-calendar3" /> Novembar 16, 2021</a>
+                <a href="/#" className="blog-writer"><i className="bi bi-person-circle" /> By John Smith </a>
+                <a href="/#" className="blog-comments"><i className="bi bi-calendar3" /> Novembar 16, 2021</a>
               </div>
               <h4 className="blog-title"><a href="blog-details.html">Mauris commodo massa vel diamnat
                   feugiat sagittis Nunc maxim.</a></h4>
@@ -387,13 +389,13 @@ const About = () => {
                 <img src="assets/images/blog/blog-md-3.png" alt="" />
               </a>
               <div className="blog-lavel">
-                <a href="#">Tour</a>
+                <a href="/#">Tour</a>
               </div>
             </div>
             <div className="blog-content">
               <div className="blog-body-top">
-                <a href="#" className="blog-writer"><i className="bi bi-person-circle" /> By John Smith </a>
-                <a href="#" className="blog-comments"><i className="bi bi-calendar3" /> Novembar 16, 2021</a>
+                <a href="/#" className="blog-writer"><i className="bi bi-person-circle" /> By John Smith </a>
+                <a href="/#" className="blog-comments"><i className="bi bi-calendar3" /> Novembar 16, 2021</a>
               </div>
               <h4 className="blog-title"><a href="blog-details.html">Nulla urna leo, volutpat eu maurisa eget luctus malesuada urna.</a></h4>
             </div>
