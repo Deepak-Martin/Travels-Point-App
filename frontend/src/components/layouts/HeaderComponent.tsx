@@ -247,47 +247,9 @@ const HeaderComponent = () => {
                         </li>
                       </ul>
                     </li>
-
-                    <li className="has-child-menu">
-                      <a href="/#">Blogs</a>
-                      <i className="fl flaticon-plus">+</i>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blog.html">Blog Grid</a>
-                        </li>
-                        <li>
-                          <a href="blog-sidebar.html">Blog Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-standard.html">Blog Standard </a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
                     
-                    <li className="has-child-menu">
-                      <a href="/#">Pages</a>
-                      <i className="fl flaticon-plus">+</i>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="guide.html">Guide</a>
-                        </li>
-                        <li>
-                          <a href="gallary.html">Gallary</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">FAQ</a>
-                        </li>
-                        <li>
-                          <a href="404.html">404</a>
-                        </li>
-                      </ul>
-                    </li>
-
                     <li>
-                      <a href="contact.html">Contact Us</a>
+                      <Link to='/contact-us'>Contact Us</Link>
                     </li>
                   </ul>
                   <div className="inner-contact-options d-xl-none">

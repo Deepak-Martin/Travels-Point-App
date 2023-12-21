@@ -1,0 +1,65 @@
+.heroSlide img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: .5s all ease;
+}
+
+.heroBannerSlider .slick-arrow {
+    position: absolute;
+    z-index: 9;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.heroBannerSlider .slick-next{
+    right: 30px;
+}
+
+.heroBannerSlider .slick-prev{
+    left: 10px;
+}
+
+.heroBannerSlider .slick-prev:before, 
+.heroBannerSlider .slick-next:before {
+    font-size: 17px !important;
+    font-family: "Font Awesome 6 Free" !important;
+    top: 0;
+}
+
+.heroBannerSlider:before {
+    /* content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #22222229;
+    top: 0;
+    left: 0;
+    z-index: 9; */
+}
+
+.heroSlides{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 70px;
+}
+
+.heroContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroSlides h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+

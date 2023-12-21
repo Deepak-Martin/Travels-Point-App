@@ -1,9 +1,11 @@
 import React from "react";
 
+import HeroSlider from "./HeroSlider";
+
 const Home = () => {
   return (
     <>
-      <div className="hero-area hero-style-four">
+      {/* <div className="hero-area hero-style-four">
         <img
           src="assets/images/banner/banner-plane.svg"
           className="img-fluid banner-plane"
@@ -24,6 +26,7 @@ const Home = () => {
           className="banner-star3"
           alt="Add tag here"
         />
+
         <div className="hero-main-wrapper position-relative">
           <div className="swiper hero-slider-four">
             <div className="swiper-wrapper">
@@ -94,7 +97,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+        
+
+      <HeroSlider />
 
       <div className="searchbar-section home4">
         <div className="container">
@@ -164,9 +170,7 @@ const Home = () => {
                           className="defult-select-drowpown"
                           id="person-dropdown"
                         >
-                          <option defaultValue={0}>
-                            01
-                          </option>
+                          <option defaultValue={0}>01</option>
                           <option value={1}>02</option>
                           <option value={2}>03</option>
                           <option value={3}>04</option>
@@ -204,6 +208,8 @@ const Home = () => {
         </div>
       </div>
 
+
+
       <div className="package-area package-style-two pt-110 chain">
         <div className="container">
           <div className="row justify-content-center">
@@ -223,7 +229,10 @@ const Home = () => {
               <div className="package-card-delta">
                 <div className="package-thumb">
                   <a href="package-details.html">
-                    <img src="assets/images/package/best-s1.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/package/best-s1.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <p className="card-lavel">
                     <i className="bi bi-clock" />{" "}
@@ -257,7 +266,10 @@ const Home = () => {
               <div className="package-card-delta">
                 <div className="package-thumb">
                   <a href="package-details.html">
-                    <img src="assets/images/package/best-s2.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/package/best-s2.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <p className="card-lavel">
                     <i className="bi bi-clock" />{" "}
@@ -290,7 +302,10 @@ const Home = () => {
               <div className="package-card-delta">
                 <div className="package-thumb">
                   <a href="package-details.html">
-                    <img src="assets/images/package/best-s3.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/package/best-s3.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <p className="card-lavel">
                     <i className="bi bi-clock" />{" "}
@@ -324,7 +339,10 @@ const Home = () => {
               <div className="package-card-delta">
                 <div className="package-thumb">
                   <a href="package-details.html">
-                    <img src="assets/images/package/best-s4.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/package/best-s4.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <p className="card-lavel">
                     <i className="bi bi-clock" />{" "}
@@ -358,7 +376,10 @@ const Home = () => {
               <div className="package-card-delta">
                 <div className="package-thumb">
                   <a href="package-details.html">
-                    <img src="assets/images/package/best-s5.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/package/best-s5.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <p className="card-lavel">
                     <i className="bi bi-clock" />{" "}
@@ -392,7 +413,10 @@ const Home = () => {
               <div className="package-card-delta">
                 <div className="package-thumb">
                   <a href="package-details.html">
-                    <img src="assets/images/package/best-s6.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/package/best-s6.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <p className="card-lavel">
                     <i className="bi bi-clock" />{" "}
@@ -448,7 +472,10 @@ const Home = () => {
             <div className="col-lg-6 col-md-12 col-sm-10">
               <div className="destination-item">
                 <div className="destination-img">
-                  <img src="assets/images/destination/top-ds1.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/destination/top-ds1.png"
+                    alt="Add tag here"
+                  />
                 </div>
                 <div className="destination-overlay">
                   <div className="content">
@@ -465,7 +492,10 @@ const Home = () => {
             <div className="col-lg-3 col-md-6 col-sm-10">
               <div className="destination-item">
                 <div className="destination-img">
-                  <img src="assets/images/destination/top-ds2.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/destination/top-ds2.png"
+                    alt="Add tag here"
+                  />
                 </div>
                 <div className="destination-overlay">
                   <div className="content">
@@ -482,7 +512,10 @@ const Home = () => {
             <div className="col-lg-3 col-md-6 col-sm-10">
               <div className="destination-item">
                 <div className="destination-img">
-                  <img src="assets/images/destination/top-ds3.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/destination/top-ds3.png"
+                    alt="Add tag here"
+                  />
                 </div>
                 <div className="destination-overlay">
                   <div className="content">
@@ -499,7 +532,10 @@ const Home = () => {
             <div className="col-lg-3 col-md-6 col-sm-10">
               <div className="destination-item">
                 <div className="destination-img">
-                  <img src="assets/images/destination/top-ds4.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/destination/top-ds4.png"
+                    alt="Add tag here"
+                  />
                 </div>
                 <div className="destination-overlay">
                   <div className="content">
@@ -516,7 +552,10 @@ const Home = () => {
             <div className="col-lg-3 col-md-6 col-sm-10">
               <div className="destination-item">
                 <div className="destination-img">
-                  <img src="assets/images/destination/top-ds5.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/destination/top-ds5.png"
+                    alt="Add tag here"
+                  />
                 </div>
                 <div className="destination-overlay">
                   <div className="content">
@@ -533,7 +572,10 @@ const Home = () => {
             <div className="col-lg-6 col-md-12 col-sm-10">
               <div className="destination-item">
                 <div className="destination-img">
-                  <img src="assets/images/destination/top-ds6.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/destination/top-ds6.png"
+                    alt="Add tag here"
+                  />
                 </div>
                 <div className="destination-overlay">
                   <div className="content">
@@ -592,7 +634,10 @@ const Home = () => {
                     <div className="package-card-delta">
                       <div className="package-thumb">
                         <a href="package-details.html">
-                          <img src="assets/images/package/best-s1.png" alt="Add tag here" />
+                          <img
+                            src="assets/images/package/best-s1.png"
+                            alt="Add tag here"
+                          />
                         </a>
                         <p className="card-lavel">
                           <i className="bi bi-clock" />{" "}
@@ -625,7 +670,10 @@ const Home = () => {
                     <div className="package-card-delta">
                       <div className="package-thumb">
                         <a href="package-details.html">
-                          <img src="assets/images/package/best-s2.png" alt="Add tag here" />
+                          <img
+                            src="assets/images/package/best-s2.png"
+                            alt="Add tag here"
+                          />
                         </a>
                         <p className="card-lavel">
                           <i className="bi bi-clock" />{" "}
@@ -658,7 +706,10 @@ const Home = () => {
                     <div className="package-card-delta">
                       <div className="package-thumb">
                         <a href="package-details.html">
-                          <img src="assets/images/package/best-s3.png" alt="Add tag here" />
+                          <img
+                            src="assets/images/package/best-s3.png"
+                            alt="Add tag here"
+                          />
                         </a>
                         <p className="card-lavel">
                           <i className="bi bi-clock" />{" "}
@@ -692,7 +743,10 @@ const Home = () => {
                     <div className="package-card-delta">
                       <div className="package-thumb">
                         <a href="package-details.html">
-                          <img src="assets/images/package/best-s4.png" alt="Add tag here" />
+                          <img
+                            src="assets/images/package/best-s4.png"
+                            alt="Add tag here"
+                          />
                         </a>
                         <p className="card-lavel">
                           <i className="bi bi-clock" />{" "}
@@ -726,7 +780,10 @@ const Home = () => {
                     <div className="package-card-delta">
                       <div className="package-thumb">
                         <a href="package-details.html">
-                          <img src="assets/images/package/best-s5.png" alt="Add tag here" />
+                          <img
+                            src="assets/images/package/best-s5.png"
+                            alt="Add tag here"
+                          />
                         </a>
                         <p className="card-lavel">
                           <i className="bi bi-clock" />{" "}
@@ -1611,7 +1668,10 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 col-md-10">
               <div className="guide-card-beta">
                 <div className="guide-image">
-                  <img src="assets/images/guide/guide31.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/guide/guide31.png"
+                    alt="Add tag here"
+                  />
                   <ul className="guide-social-links d-flex justify-content-center flex-column gap-3">
                     <li>
                       <a href="/#">
@@ -1641,7 +1701,10 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 col-md-10">
               <div className="guide-card-beta">
                 <div className="guide-image">
-                  <img src="assets/images/guide/guide32.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/guide/guide32.png"
+                    alt="Add tag here"
+                  />
                   <ul className="guide-social-links d-flex justify-content-center flex-column gap-3">
                     <li>
                       <a href="/#">
@@ -1671,7 +1734,10 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 col-md-10">
               <div className="guide-card-beta">
                 <div className="guide-image">
-                  <img src="assets/images/guide/guide33.png" alt="Add tag here" />
+                  <img
+                    src="assets/images/guide/guide33.png"
+                    alt="Add tag here"
+                  />
                   <ul className="guide-social-links d-flex justify-content-center flex-column gap-3">
                     <li>
                       <a href="/#">
@@ -1721,7 +1787,10 @@ const Home = () => {
               <div className="blog-card-beta">
                 <div className="blog-thumb">
                   <a href="blog-details.html">
-                    <img src="assets/images/blog/home3-blog1.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/blog/home3-blog1.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <div className="blog-lavel">
                     <a href="/#">Novembar 16, 2021</a>
@@ -1749,7 +1818,10 @@ const Home = () => {
               <div className="blog-card-beta">
                 <div className="blog-thumb">
                   <a href="blog-details.html">
-                    <img src="assets/images/blog/home3-blog2.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/blog/home3-blog2.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <div className="blog-lavel">
                     <a href="/#">Novembar 16, 2021</a>
@@ -1777,7 +1849,10 @@ const Home = () => {
               <div className="blog-card-beta">
                 <div className="blog-thumb">
                   <a href="blog-details.html">
-                    <img src="assets/images/blog/home3-blog3.png" alt="Add tag here" />
+                    <img
+                      src="assets/images/blog/home3-blog3.png"
+                      alt="Add tag here"
+                    />
                   </a>
                   <div className="blog-lavel">
                     <a href="/#">Novembar 16, 2021</a>
