@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.heroSlide img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: .5s all ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heroBannerSlider .slick-arrow {
+    position: absolute;
+    z-index: 9;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heroBannerSlider .slick-next{
+    right: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heroBannerSlider .slick-prev{
+    left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.heroBannerSlider .slick-prev:before, 
+.heroBannerSlider .slick-next:before {
+    font-size: 17px !important;
+    font-family: "Font Awesome 6 Free" !important;
+    top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heroBannerSlider:before {
+    /* content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #22222229;
+    top: 0;
+    left: 0;
+    z-index: 9; */
 }
+
+.heroSlides{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 70px;
+}
+
+.heroContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroSlides h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
